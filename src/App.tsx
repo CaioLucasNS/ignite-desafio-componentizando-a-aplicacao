@@ -6,8 +6,6 @@ import { Content } from './components/Content';
 import { api } from './services/api';
 
 import './styles/global.scss';
-import './styles/sidebar.scss';
-import './styles/content.scss';
 
 interface GenreResponseProps {
   id: number;
@@ -15,7 +13,7 @@ interface GenreResponseProps {
   title: string;
 }
 
-export interface MovieProps {
+interface MovieProps {
   imdbID: string;
   Title: string;
   Poster: string;

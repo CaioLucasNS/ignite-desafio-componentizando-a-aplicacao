@@ -1,5 +1,7 @@
 import { Button } from "./Button";
 
+import '../styles/sidebar.scss';
+
 interface SideBarProps {
   genres: Array<{
     id: number,
@@ -27,7 +29,6 @@ export function SideBar(props: SideBarProps) {
           />
         ))}
       </div>
-
     </nav>
   );
 }

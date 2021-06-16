@@ -1,5 +1,7 @@
 import { MovieCard } from "./MovieCard";
 
+import '../styles/content.scss';
+
 interface ContentProps {
   title: string;
   movie: Array<{
